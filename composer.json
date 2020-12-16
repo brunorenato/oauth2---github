@@ -1,0 +1,25 @@
+{
+    "name": "brunorenato/oauth2",
+    "description": "composer, php e oauth2",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bruno Renato",
+            "email": "brunorenato001@gmail.com",
+            "role": "Developer"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Source\\": "source/"
+		},
+		"files": [
+			"source/Config.php"
+		]
+	},	
+    "require": {
+        "league/oauth2-client": "^2.6",
+        "league/oauth2-github": "^2.0"
+    }
+}
